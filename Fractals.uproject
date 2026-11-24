@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.0",
+	"EngineAssociation": "{F7FC04F8-4594-5795-3B50-3FA6566F0145}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -20,7 +20,7 @@
 		},
 		{
 			"Name": "Bridge",
-			"Enabled": true,
+			"Enabled": false,
 			"SupportedTargetPlatforms": [
 				"Win64",
 				"Mac",
@@ -33,7 +33,7 @@
 		},
 		{
 			"Name": "OWLLivestreamingToolkit",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/92307b570d474fbc87592b973ce82e3b",
 			"SupportedTargetPlatforms": [
 				"Win64"

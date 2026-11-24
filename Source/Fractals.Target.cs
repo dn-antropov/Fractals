@@ -8,7 +8,7 @@ public class FractalsTarget : TargetRules
 	public FractalsTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
+		DefaultBuildSettings = BuildSettingsVersion.V7;
 		ExtraModuleNames.AddRange( new string[] { "Fractals" } );
 	}
 }

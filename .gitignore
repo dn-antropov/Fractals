@@ -2,6 +2,8 @@
 *
 !*/
 
+
+
 # Do not ignore git files in the root of the repo.
 !/.git*
 
@@ -11,7 +13,10 @@
 # Do not ignore source, config and plugins dirs.
 !/Source/**
 !/Config/**
-!/Plugins/**
+
+/Intermediate
+/Build
+/Saved
 
 # Only allow .uasset and .umap files from /Content dir.
 # They're tracked by git-lfs, don't forget to track other
